@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Red Viva</title>
+
+        <!-- Bootstrap -->
+         <link href="index/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="index/ionicons/css/ionicons.min.css" rel="stylesheet">        
+        <link href="index/bower_components/flexslider/flexslider.css" rel="stylesheet">
+        <!--main css file-->
+        <link href="index/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="index/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Patua+One|Fredoka+One|Nova+Oval|Josefin+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="index/css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="index/css/estilos1.css">
+        
+    </head>
+    
+        <!--pre-loader-->
+        <div id="preloader"></div>
+        <!--pre-loader-->
+
+        <!--main menu-->
+        <!-- Static navbar -->
+        <header class="navbar navbar-inverse navbar-default navbar-fixed-top navbar-estilo" >
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand img-logo" href="index.html"><img class="img-logo" src="index/images/LOGO-11.png"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right scroll-to">
+                    <li class="text-center">
+                        <p class="titulos1">Correo Electronico</p>
+                        <input type="email" name="email" class="input-estilo" placeholder="email">
+                    </li>
+                   <li class="text-center">
+                        <p class="titulos1">Contraseña</p>
+                        <input type="password" name="password" class="input-estilo" placeholder="password">
+                        <a class="titulos2" href="#">¿Olvidaste tu contraseña?</a>
+                    </li>
+                    <li class="text-center"><button type="button" class="butoon-ingresar">Ingresar</button></li>
+                </ul>
+                </div>
+            </div>
+        </header>
+
+  <body data-spy="scroll" class="background-3 ">
+   <section class="header-full-screen background-hotel" id="home" data-stellar-background-ratio="0.5">
+            <div class="absolute_full">
+                <div class="display-table">
+                    <div class="vertical-middle">
+                        <div class="container ">
+                            <div class="space-40"></div>
+                            <div class="row text-center">
+                                <div class="col-xs-12">
+                                    <h1 class="logo logo_cuadro rest-logo">Hoteles</h1>
+                                </div>
+                            </div>
+                            <div class="row text-center">
+                                <p class="font-rest1 empresa_cuadro">Encuentra tu Hotel ideal al mejor precio</p>
+            
+                            </div>
+                            <div class="row text-center">
+                                <div class="col-xs-1"></div>
+                                <div class="col-xs-8  no-padding no-margin">
+                                    <div class="form-group input-buscar ">
+                                        <input type="text" class="form-control" id="buscar_restaurantes" placeholder="Ingrese su Restaurante">
+                                    </div>
+                                </div>
+                                <div class="col-xs-1 col-xs-offset-1 no-padding no-margin">
+                                    <button type="button" class="btn color-boton btn-lg btn-search">Buscar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <section>
+           <section class="background-maspop" id="mas_populares" data-stellar-background-ratio="0.5">
+            <div class="absolute_full">
+                <div class="display-table">
+                    <div class="vertical-middle">
+                        <div class="container ">
+                            <div class="row text-center">
+                                <div class="col-xs-12">
+                                    <h1 class="font-rest tam-1">Hoteles en Tarapoto</h1>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                            <div class="col-md-12 formulario" style="background: green;">
+                                <form>
+                                <h4 style="text-align: center;color: white;">Buscar por Fecha</h4>
+                                  <div class="form-group">
+                                    <input type="date" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                                  </div>
+                                  <div class="form-group">
+                                    <input type="date" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                                  </div>
+                                  <div class="form-group">
+                                    <select class="form-control" id="exampleSelect1">
+                                      <option>1 habitación</option>
+                                      <option>2 habitaciones</option>
+                                      <option>3 habitaciones</option>
+                                      <option>4 habitaciones</option>
+                                      <option>5 habitaciones</option>
+                                    </select>
+                                  </div>
+                                  <button type="submit" class="btn btn-primary">Actualizar datos</button>
+                                </form>
+                            </div>
+                            <div class="space-20">
+                                
+                            </div>
+                            
+                            <div class="row"><br>
+                                <h5>Tipo de Establecimiento</h5>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">
+                                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                        Hoteles
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">
+                                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                        Moteles
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">
+                                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                        Posada
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">
+                                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                        Apartamento
+                                    </label>
+                                </div>
+                                <h5>Precio</h5>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">
+                                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                        Hoteles Economicos
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">
+                                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                        Gama Media
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">
+                                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                        Hoteles Elegantes
+                                    </label>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-md-9">
+                                <ul class="nav nav-tabs">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" href="#">Precio mas bajo</a>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ordenar por precio</a>
+                                    <div class="dropdown-menu">
+                                      <a class="dropdown-item" href="#">Menor a mayor</a>
+                                      <a class="dropdown-item" href="#">Mayor a menor</a>
+                                      
+                                    </div>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Popularidad</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Ofertas</a>
+                                  </li>
+                                </ul>
+                                <div class="hoteles">
+                                    <div class="col-md-4">
+                                        <img src="imagenes/hotel3.jpg" alt="" style="width: 200px; height: 230px">
+                                    </div>
+                                    <div class="col-md-8" style="margin-left: -60px">
+                                        <div class="col-md-6">
+                                            <h5><a href="">Hotel Tarapotino</a></h5>
+                                            <div class="est">
+                                                <i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel-1"></i>
+                                                <span>10 comentarios</span>
+                                            </div>
+                                            <span href="">jr: alfonso ugarte #1568</span>
+                                            <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#myModal">Ver mapa</button>
+                                            <p>
+                                                Es muy atractivo, ven disfruta de nuestra comodidaddes
+                                            </p>
+                                            <button type="submit" class="btn btn-secondary espa">economico</button>
+                                            <button type="submit" class="btn btn-secondary espa">Desayuno Gratis</button>
+                                            <button type="submit" class="btn btn-secondary espa">Estacionaminto gratis</button>
+                                        </div>
+                                        <div class="col-md-6 oferta">
+                                           <center>
+                                                <button class="btn btn-warning">OFERTA</button>
+                                           </center>
+
+                                            <h2 style="margin-top: 50px; margin-bottom: 50px; text-align: center;">S/ 80</h2>
+                                            <center>
+                                                <button class="btn btn-primary">DETALLES ></button>
+                                            </center>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hoteles">
+                                    <div class="col-md-4">
+                                        <img src="imagenes/hotel3.jpg" alt="" style="width: 200px; height: 230px">
+                                    </div>
+                                    <div class="col-md-8" style="margin-left: -60px">
+                                        <div class="col-md-6">
+                                            <h5><a href="">Hotel Tarapotino</a></h5>
+                                            <div class="est">
+                                                <i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel-1"></i>
+                                                <span>10 comentarios</span>
+                                            </div>
+                                            <span href="">jr: alfonso ugarte #1568</span>
+                                            <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#myModal">Ver mapa</button>
+                                            <p>
+                                                Es muy atractivo, ven disfruta de nuestra comodidaddes
+                                            </p>
+                                            <button type="submit" class="btn btn-secondary espa">economico</button>
+                                            <button type="submit" class="btn btn-secondary espa">Desayuno Gratis</button>
+                                            <button type="submit" class="btn btn-secondary espa">Estacionaminto gratis</button>
+                                        </div>
+                                        <div class="col-md-6 oferta">
+                                           <center>
+                                                <button class="btn btn-warning">OFERTA</button>
+                                           </center>
+
+                                            <h2 style="margin-top: 50px; margin-bottom: 50px; text-align: center;">S/ 80</h2>
+                                            <center>
+                                                <button class="btn btn-primary">DETALLES ></button>
+                                            </center>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hoteles">
+                                    <div class="col-md-4">
+                                        <img src="imagenes/hotel3.jpg" alt="" style="width: 200px; height: 230px">
+                                    </div>
+                                    <div class="col-md-8" style="margin-left: -60px">
+                                        <div class="col-md-6">
+                                            <h5><a href="">Hotel Tarapotino</a></h5>
+                                            <div class="est">
+                                                <i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel-1"></i>
+                                                <span>10 comentarios</span>
+                                            </div>
+                                            <span href="">jr: alfonso ugarte #1568</span>
+                                            <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#myModal">Ver mapa</button>
+                                            <p>
+                                                Es muy atractivo, ven disfruta de nuestra comodidaddes
+                                            </p>
+                                            <button type="submit" class="btn btn-secondary espa">economico</button>
+                                            <button type="submit" class="btn btn-secondary espa">Desayuno Gratis</button>
+                                            <button type="submit" class="btn btn-secondary espa">Estacionaminto gratis</button>
+                                        </div>
+                                        <div class="col-md-6 oferta">
+                                           <!-- <center>
+                                                <button class="btn btn-warning">OFERTA</button>
+                                           </center> -->
+
+                                            <h2 style="margin-top: 50px; margin-bottom: 50px; text-align: center;">S/ 80</h2>
+                                            <center>
+                                                <button class="btn btn-primary">DETALLES ></button>
+                                            </center>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hoteles">
+                                    <div class="col-md-4">
+                                        <img src="imagenes/hotel3.jpg" alt="" style="width: 200px; height: 230px">
+                                    </div>
+                                    <div class="col-md-8" style="margin-left: -60px">
+                                        <div class="col-md-6">
+                                            <h5><a href="">Hotel Tarapotino</a></h5>
+                                            <div class="est">
+                                                <i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel-1"></i>
+                                                <span>10 comentarios</span>
+                                            </div>
+                                            <span href="">jr: alfonso ugarte #1568</span>
+                                            <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#myModal">Ver mapa</button>
+                                            <p>
+                                                Es muy atractivo, ven disfruta de nuestra comodidaddes
+                                            </p>
+                                            <button type="submit" class="btn btn-secondary espa">economico</button>
+                                            <button type="submit" class="btn btn-secondary espa">Desayuno Gratis</button>
+                                            <button type="submit" class="btn btn-secondary espa">Estacionaminto gratis</button>
+                                        </div>
+                                        <div class="col-md-6 oferta">
+                                           <!-- <center>
+                                                <button class="btn btn-warning">OFERTA</button>
+                                           </center> -->
+
+                                            <h2 style="margin-top: 50px; margin-bottom: 50px; text-align: center;">S/ 80</h2>
+                                            <center>
+                                                <button class="btn btn-primary">DETALLES ></button>
+                                            </center>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hoteles">
+                                    <div class="col-md-4">
+                                        <img src="imagenes/hotel3.jpg" alt="" style="width: 200px; height: 230px">
+                                    </div>
+                                    <div class="col-md-8" style="margin-left: -60px">
+                                        <div class="col-md-6">
+                                            <h5><a href="">Hotel Tarapotino</a></h5>
+                                            <div class="est">
+                                                <i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel-1"></i>
+                                                <span>10 comentarios</span>
+                                            </div>
+                                            <span href="">jr: alfonso ugarte #1568</span>
+                                            <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#myModal">Ver mapa</button>
+                                            <p>
+                                                Es muy atractivo, ven disfruta de nuestra comodidaddes
+                                            </p>
+                                            <button type="submit" class="btn btn-secondary espa">economico</button>
+                                            <button type="submit" class="btn btn-secondary espa">Desayuno Gratis</button>
+                                            <button type="submit" class="btn btn-secondary espa">Estacionaminto gratis</button>
+                                        </div>
+                                        <div class="col-md-6 oferta">
+                                           <center>
+                                                <button class="btn btn-warning">OFERTA</button>
+                                           </center>
+
+                                            <h2 style="margin-top: 50px; margin-bottom: 50px; text-align: center;">S/ 80</h2>
+                                            <center>
+                                                <button class="btn btn-primary">DETALLES ></button>
+                                            </center>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hoteles">
+                                    <div class="col-md-4">
+                                        <img src="imagenes/hotel3.jpg" alt="" style="width: 200px; height: 230px">
+                                    </div>
+                                    <div class="col-md-8" style="margin-left: -60px">
+                                        <div class="col-md-6">
+                                            <h5><a href="">Hotel Tarapotino</a></h5>
+                                            <div class="est">
+                                                <i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel"></i><i class="glyphicon glyphicon-star start-hotel-1"></i>
+                                                <span>10 comentarios</span>
+                                            </div>
+                                            <span href="">jr: alfonso ugarte #1568</span>
+                                            <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#myModal">Ver mapa</button>
+                                            <p>
+                                                Es muy atractivo, ven disfruta de nuestra comodidaddes
+                                            </p>
+                                            <button type="submit" class="btn btn-secondary espa">economico</button>
+                                            <button type="submit" class="btn btn-secondary espa">Desayuno Gratis</button>
+                                            <button type="submit" class="btn btn-secondary espa">Estacionaminto gratis</button>
+                                        </div>
+                                        <div class="col-md-6 oferta">
+                                           <!-- <center>
+                                                <button class="btn btn-warning">OFERTA</button>
+                                           </center> -->
+
+                                            <h2 style="margin-top: 50px; margin-bottom: 50px; text-align: center;">S/ 80</h2>
+                                            <center>
+                                                <button class="btn btn-primary">DETALLES ></button>
+                                            </center>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                     
+                    </div>
+                </div>
+            </div>
+            </section>    
+</section>
+   
+ 
+<!-- <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xs-12">
+                    <span class="copyright">Copyright &copy; Your Website 2017</span>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <p>by KAMISAMA</p>
+                </div>
+            </div>
+        </div>
+</footer> -->
+        <!--back to top-->
+        <a href="#" class="scrollToTop"><i class="ion-android-arrow-dropup-circle"></i></a>
+        <!--back to top end-->
+        <!-- jQuery plugins-->
+        <script src="index/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="index/js/jquery-migrate.min.js"></script>
+        <script src="index/bootstrap/js/bootstrap.min.js"></script>
+        <script src="index/js/template-custom.js" type="text/javascript"></script>
+        <script src="index/js/jquery-1.9.1.js"></script>
+        <script src="index/js/myjs.js" type="text/javascript" charset="utf-8" async defer></script>
+        <script src="index/js/bootstrap-checkbox.min.js" defer></script>
+        <script  type="text/javascript" charset="utf-8" async defer>
+            $(':checkbox').checkboxpicker();
+        </script>
+    </body>
+</html>
